@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Платформа Тендеров - Форма</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="img/IMG_9922-removebg-preview.png" alt="Логотип">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="index.html" class="buk">Главная</a></li>
+            <li class="link"><a href="view.html" class="buk">Заполнение Тендеров</a></li>
+        </ul>
+        <button class="btn">Связаться с нами</button>
+    </nav>
+
+    <header id="find-tenders" class="container">
+        <div class="content">
+            <h4>Добро пожаловать на нашу платформу тендеров</h4>
+            <h1>Найдите и разместите <span>Тендеры</span></h1>
+            <p>Откройте для себя разнообразные тендеры и разместите свои проекты для торгов. Присоединяйтесь к нашей платформе, чтобы найти потенциальных клиентов и поставщиков услуг.</p>
+            <a href="#new-tender" class="btn">Начать</a>
+        </div>
+        <div class="imaig">
+            <img src="img/q2.png" alt="Изображение">
+        </div>
+    </header>
+
+    <!-- Поисковая строка -->
+    <div class="search-bar container">
+        <input type="text" id="search-input" placeholder="Поиск тендеров...">
+        <button class="btn" id="search-btn">Поиск</button>
+    </div>
+
+    <!-- Горизонтальный список категорий -->
+    <div class="container categories-section">
+        <h3 class="foff">Все категории</h3>
+        <ul class="horizontal-categories">
+            <li><a href="#" class="category-btn">Мужские</a></li>
+            <li><a href="#" class="category-btn">Женские</a></li>
+            <li><a href="#" class="category-btn">Батальные размеры</a></li>
+            <li><a href="#" class="category-btn">Детская</a></li>
+            <li><a href="#" class="category-btn">Спец одежда</a></li>
+            <li><a href="#" class="category-btn">Ткань, фурнитура</a></li>
+            <li><a href="#" class="category-btn">Услуги</a></li>
+            <li><a href="#" class="category-btn">Прочие</a></li>
+        </ul>
+    </div>
+    
+
+    <section id="new-tender" class="container">
+        <h2 class="header">Новые Тендеры</h2>
+        <ul id="new-tender-list">
+            <!-- Тендеры из формы "Новый Тендер" -->
+        </ul>
+    </section>
+    
+    <section id="suppliers" class="container">
+        <h2 class="header">Тендеры от Поставщиков</h2>
+        <ul id="suppliers-list">
+            <!-- Тендеры из формы "Поставщик" -->
+        </ul>
+    </section>
+    
+    <section id="clients" class="container">
+        <h2 class="header">Тендеры от Заказчиков</h2>
+        <ul id="clients-list">
+            <!-- Тендеры из формы "Заказчик" -->
+        </ul>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
